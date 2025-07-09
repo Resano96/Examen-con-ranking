@@ -1,0 +1,17 @@
+{% extends './layout.html' %}
+{% block title %}Añadir Pregunta{% endblock %}
+
+{% block body %}
+<h1>Añadir nueva pregunta</h1>
+
+<form method="POST" action="{{ url_for('guardar_nueva_pregunta') }}">
+  <label>Pregunta:</label><br>
+  <input type="text" name="pregunta" required style="width: 100%;"><br><br>
+
+
+
+  <button type="submit">Guardar</button>
+</form>
+
+<a href="{{ url_for('preguntas_completas') }}">Volver al listado</a>
+{% endblock %}

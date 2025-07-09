@@ -1,0 +1,114 @@
+{
+    "¿Cuál es la capital de Francia?": [
+        "Madrid",
+        "París",
+        "Berlín",
+        "Roma",
+        "1"
+    ],
+    "¿Cuál es el resultado de 7 x 8?": [
+        "54",
+        "56",
+        "64",
+        "48",
+        "1"
+    ],
+    "¿Qué órgano bombea la sangre?": [
+        "Pulmón",
+        "Riñón",
+        "Corazón",
+        "Hígado",
+        "2"
+    ],
+    "¿Qué gas respiramos principalmente?": [
+        "Nitrógeno",
+        "Oxígeno",
+        "Dióxido de carbono",
+        "Hidrógeno",
+        "1"
+    ],
+    "¿Quién escribió 'Don Quijote'?": [
+        "García Márquez",
+        "Bécquer",
+        "Cervantes",
+        "Lope de Vega",
+        "2"
+    ],
+    "¿Cuál es el océano más grande?": [
+        "Atlántico",
+        "Índico",
+        "Ártico",
+        "Pacífico",
+        "3"
+    ],
+    "¿En qué continente está Egipto?": [
+        "África",
+        "Asia",
+        "Europa",
+        "América",
+        "0"
+    ],
+    "¿Cuál es el metal más ligero?": [
+        "Plomo",
+        "Hierro",
+        "Litio",
+        "Oro",
+        "2"
+    ],
+    "¿Qué instrumento tiene cuerdas?": [
+        "Trompeta",
+        "Violín",
+        "Flauta",
+        "Batería",
+        "1"
+    ],
+    "¿Cuál es la lengua más hablada del mundo?": [
+        "Inglés",
+        "Mandarín",
+        "Español",
+        "Árabe",
+        "1"
+    ],
+    "¿Qué planeta es el más cercano al Sol?": [
+        "Venus",
+        "Tierra",
+        "Mercurio",
+        "Marte",
+        "2"
+    ],
+    "¿Qué tipo de animal es una ballena?": [
+        "Pez",
+        "Anfibio",
+        "Mamífero",
+        "Reptil",
+        "2"
+    ],
+    "¿Cuántos lados tiene un hexágono?": [
+        "4",
+        "6",
+        "8",
+        "5",
+        "1"
+    ],
+    "¿Cuál es el símbolo químico del oro?": [
+        "Au",
+        "Ag",
+        "Fe",
+        "O",
+        "0"
+    ],
+    "¿Qué país ganó el Mundial 2010?": [
+        "Alemania",
+        "España",
+        "Brasil",
+        "Francia",
+        "1"
+    ],
+    "¿En qué año llegó el hombre a la Luna?": [
+        "1969",
+        "1972",
+        "1959",
+        "1965",
+        "0"
+    ]
+}

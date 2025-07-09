@@ -62,6 +62,8 @@ def Menu():
             Login()
         elif opcion == "4":
             break
+        else:
+            print("Opcion no valida")
 
 #Aqui añadimos mas preguntas al test
 def AñadirPreguntas(Diccionario):

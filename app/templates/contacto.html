@@ -1,0 +1,8 @@
+{% extends './layout.html' %} {% block title %} {{data.Titulo}} {% endblock %}
+{% block body %}
+<h1>{{data.nombre}}</h1>
+<div>
+    <p>Hola, soy Ander Resano</p>
+</div>
+<a href="{{ url_for('index')}}">Home</a>
+{% endblock %}

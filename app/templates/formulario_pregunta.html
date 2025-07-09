@@ -1,0 +1,23 @@
+{% extends './layout.html' %}
+{% block title %}Añadir Pregunta{% endblock %}
+
+{% block body %}
+<h1>Añadir nueva pregunta</h1>
+
+<form method="POST" action="{{ url_for('guardar_nueva_pregunta') }}">
+  <label>Pregunta:</label><br>
+  <input type="text" name="pregunta" required style="width: 100%;"><br><br>
+
+  {% for i in range(4) %}
+    <label>Respuesta {{ i + 1 }}:</label><br>
+    <input type="text" name="respuesta{{ i }}" required style="width: 100%;"><br><br>
+  {% endfor %}
+
+  <label>¿Cuál es la correcta? (0 a 3):</label><br>
+  <input type="number" name="correcta" min="0" max="3" required><br><br>
+
+  <button type="submit">Guardar</button>
+</form>
+
+<a href="{{ url_for('preguntas_completas') }}">Volver al listado</a>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends './layout.html' %}
+{% block title %}Resultado{% endblock %}
+{% block body %}
+<h1>Resultado final</h1>
+<p>Total de preguntas: {{ total }}</p>
+<p>Aciertos: {{ aciertos }}</p>
+<p>Porcentaje: {{ porcentaje }}%</p>
+<a href="{{ url_for('iniciar_cuestionario') }}">Volver a empezar</a>
+<a href="{{ url_for('index')}}">Home</a>
+{% endblock %}

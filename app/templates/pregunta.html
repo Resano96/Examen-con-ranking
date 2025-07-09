@@ -1,0 +1,20 @@
+{% extends './layout.html' %} {% block title %}Pregunta {{ index + 1 }}{%
+endblock %} {% block body %}
+<h2>{{ pregunta.pregunta }}</h2>
+<div>
+  <form method="POST" action="{{ url_for('responder') }}">
+    {% for r in pregunta.respuestas %}
+    <label>
+      <input type="radio" name="respuesta" value="{{ loop.index0 }}" required />
+      {{ r }} </label
+    ><br />
+    {% endfor %}
+    <input type="hidden" name="correcta" value="{{ pregunta.correcta }}" />
+    <br />
+    <button type="submit">Responder</button>
+  </form>
+</div>
+<div>
+  <a href="{{ url_for('index')}}">Home</a>
+</div>
+{% endblock %}
