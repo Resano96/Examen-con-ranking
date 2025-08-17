@@ -1,24 +1,24 @@
-# 📋 Proyecto de Preguntas y Respuestas con Flask
+# Proyecto de Preguntas y Respuestas con Flask
 
 Este es un proyecto desarrollado en **Python** utilizando el framework **Flask**.  
 La aplicación permite realizar tests de preguntas, registrar puntuaciones en un ranking y gestionar (añadir y eliminar) preguntas desde la interfaz.
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-- ✅ Realizar un test de preguntas con opción de dejar respuestas en blanco.  
-- ✅ Registro de usuario al iniciar el test.  
-- ✅ Ranking con nota, preguntas acertadas, falladas y no contestadas.  
-- ✅ Listado completo de preguntas.  
-- ✅ Añadir nuevas preguntas desde un formulario.  
-- ✅ Eliminar preguntas existentes.  
-- ✅ Página de inicio y contacto.  
-- ✅ Manejo de errores con página personalizada.
+-  Realizar un test de preguntas con opción de dejar respuestas en blanco.  
+-  Registro de usuario al iniciar el test.  
+-  Ranking con nota, preguntas acertadas, falladas y no contestadas.  
+-  Listado completo de preguntas.  
+-  Añadir nuevas preguntas desde un formulario.  
+-  Eliminar preguntas existentes.  
+-  Página de inicio y contacto.  
+-  Manejo de errores con página personalizada.
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
     ├── app.py # Archivo principal Flask
     ├── /templates # Archivos HTML (Jinja2)
@@ -33,15 +33,15 @@ La aplicación permite realizar tests de preguntas, registrar puntuaciones en un
     │ ├── eliminar_pregunta.html
     │ └── layout.html
     ├── /data
-    │ ├── preguntas.json # Base de datos de preguntas
-    │ ├── ranking.json # Ranking de usuarios
-    ├── requirements.txt # Dependencias del proyecto
-    ├── README.md # Este archivo
+    │ ├── preguntas.json
+    │ ├── ranking.json
+    ├── requirements.txt
+    ├── README.md
     └── .gitignore
 
+---
 
-
-## ⚙️ Instalación y uso
+## ️ Instalación y uso
 
 ### 1. Clonar el repositorio
 
@@ -89,7 +89,9 @@ Listado de preguntas → /preguntas_completas
 
 Añadir pregunta → /añadir_pregunta
 
-📊 Tecnologías utilizadas
+---
+
+## Tecnologías utilizadas
 * Python 3
 
 * Flask
@@ -99,6 +101,8 @@ Añadir pregunta → /añadir_pregunta
 * HTML / CSS (para las plantillas)
 
 * Archivos JSON como base de datos
+
+---
 
 ## Autor
 
