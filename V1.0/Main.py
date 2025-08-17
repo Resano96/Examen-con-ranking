@@ -6,8 +6,6 @@
 # El usuario responde a las preguntas y al final se corrigen y dan una nota
 
 
-
-
 #Aqui esta el menu inicial
 def Menu():
     nombre = PreguntarNombre()

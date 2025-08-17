@@ -5,13 +5,16 @@ endblock %} {% block body %}
   <form method="POST" action="{{ url_for('responder') }}">
     {% for r in pregunta.respuestas %}
     <label>
-      <input type="radio" name="respuesta" value="{{ loop.index0 }}" required />
+      <input type="radio" name="respuesta" value="{{ loop.index0 }}"/>
       {{ r }} </label
     ><br />
     {% endfor %}
     <input type="hidden" name="correcta" value="{{ pregunta.correcta }}" />
     <br />
     <button type="submit">Responder</button>
+    <br>
+<br>
+
   </form>
 </div>
 <div>

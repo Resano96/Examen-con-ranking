@@ -1,0 +1,35 @@
+# Entorno virtual
+env/
+
+# Versiones antiguas
+v1.0/
+v1.1/
+
+# Carpeta auxiliar personal
+Cositas Utiles/
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuración de PyCharm
+.idea/
+
+# Ignorar todos los cuadernos Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# Archivos de base de datos (por si acaso)
+*.db
+*.sqlite3
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Build y distribuciones
+build/
+dist/
+*.egg-info/

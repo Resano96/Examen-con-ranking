@@ -8,32 +8,37 @@
   <div class="pregunta-completa">
     <h2>{{ loop.index }}. {{ pregunta.pregunta }}</h2>
     <ul>
-      {% if pregunta.respuestas and pregunta.correcta is not none %}
-  {% for respuesta in pregunta.respuestas %}
-    <li {% if loop.index0 == pregunta.correcta %} style="color:green;" {% endif %}>
-      {{ respuesta }}
-    </li>
-  {% endfor %}
-{% else %}
-  <li style="color:red;">⚠️ Pregunta mal formada o incompleta</li>
-{% endif %}
+      {% if pregunta.respuestas %}
+        {% for respuesta in pregunta.respuestas %}
+          <li class="pregunta-listado">{{ respuesta }}</li>
+        {% endfor %}
+      {% else %}
+        <li style="color:red;">Pregunta sin respuestas registradas</li>
+      {% endif %}
     </ul>
   </div>
   <hr>
 {% endfor %}
 
 <form method="POST" action="{{ url_for('eliminar_pregunta') }}">
-  <label>Selecciona la pregunta que deseas eliminar:</label><br><br>
+  <label class="indicacion">Selecciona la pregunta que deseas eliminar:</label><br><br>
   <select name="pregunta" required>
     {% for pregunta in data.preguntas %}
       <option value="{{ pregunta.pregunta }}">{{ pregunta.pregunta }}</option>
     {% endfor %}
   </select><br><br>
   <button type="submit">Eliminar pregunta</button>
+  <br><br>
+
+
 </form>
-<a href="{{ url_for('formulario_nueva_pregunta') }}" class="boton">Añadir nueva pregunta</a>
-<a href="{{ url_for('index')}}">Home</a></li>
+<a href="{{ url_for('formulario_nueva_pregunta') }}" class="boton">Añadir nueva pregunta</a><br><br><br>
 
 
+
+<a class="btninicio" href="{{ url_for('index')}}">Home</a>
+<footer>
+  <p class="indicacion">Esto es una prueba en la que pongo a prueba un poco lo que se puede hacer con Flask, APIS y tipos de datos basicos</p>
+</footer>
 
 {% endblock %}

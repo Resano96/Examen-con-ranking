@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size:20px;
+}
+body {
+  background-image: url(../assets/20250716_214429.jpg);
+  background-attachment: fixed;
+  background-position: bottom;
+  width: 100vw;
+  height: 100vh;
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+  background-color: lch(73.86% 11.12 159.35 / 0.432);
+}
+.Todo {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul.Inicio {
+  list-style-type: none;
+  display: flex;
+}
+h1 {
+  font-size: 3rem;
+  padding: 30px;
+}
+button {
+  font-size: 1.7rem;
+  background-color: blanchedalmond;
+  text-decoration: none;
+  padding: 7px;
+  margin: 7px;
+  border-radius: 10px;
+}
+a{
+font-size: 2rem;
+  background-color: blanchedalmond;
+  text-decoration: none;
+  padding: 10px;
+  margin: 100px;
+  border-radius: 10px;
+.}
+.Texto {
+  margin: auto;
+  background: lch(73.86% 11.12 159.35 / 0.432);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.give-freely-root {
+  display: none !important;
+}
+.top3-container {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #fefefe;
+  border: 2px solid #e1e1e1;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.top3-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.top3-container ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.top3-container li {
+  background-color: #ecf0f1;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #34495e;
+  position: relative;
+}
+a#home {
+  background-color: lch(73.86% 11.12 159.35 / 0.733);
+  color: black;
+}
+a#home:hover {
+  background-color: oklab(77.082% -0.02945 0.01013);
+}
+div.Preguntas {
+  background-color: lch(73.86% 11.12 159.35 / 0.733);
+  display: grid;
+}
+div.Pregunta {
+  background-color: #34495e;
+}
+div.pregunta-completa {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: rgba(255,255,255,0.6);
+  border: 2px solid #e1e1e1;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+ul.lista-preguntas{
+}
+.btn {
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+.indicacion {
+color: rgba(255, 255, 255);
+}
+p.indicacion{
+margin: 30px;
+padding:40px;
+}
+
+

@@ -2,11 +2,11 @@
 {% block body %}
 <h1>{{ data.Titulo }}</h1>
 <div class="top3-container">
-  <h2>Top3</h2>
+  <h2>Ranking Total</h2>
 
   <ol>
     {% for persona in data.top3 %}
-    <li>{{persona.nombre}}- Nota: {{persona.nota}}</li>
+    <li>{{persona.nombre}} Nota: {{persona.nota}}</li>
     {% endfor %}
   </ol>
 </div>
